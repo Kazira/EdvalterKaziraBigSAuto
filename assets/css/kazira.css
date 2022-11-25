@@ -1,0 +1,806 @@
+/*****************************************************************************************************************
+Done By
+Edvalter da Costa Jamba || Kazira©
+PhoneNumber:0845385688
+Email: kazirainfo@gmail.com
+It was agreed that the name of my Start-Up Kazira© would be in the footer of the website 
+for the Company named Big S Auto Trader and no change should be made. 
+******************************************************************************************************************/
+-->@import url('../css/fonts.css');
+
+.active html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+
+:root {
+
+  /*      Theme colors        */
+  --text-gray: #3f4954;
+  --text-light: #686666da;
+  --bg-color: #0f0f0f;
+  --white: #ffffff;
+  --midnight: #104f55;
+
+  /* gradient color   */
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Nav Bar||||||||||||||||||||||||||||                           
+*********************************************************************/
+nav {
+  position: fixed;
+  background-color: rgba(23, 26, 29, 0.8);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  margin-top: 0%;
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li i {
+  color: white;
+
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background: #797979;
+
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Nav Ate Aqui|||||||||||||||||||||||                           
+*********************************************************************/
+
+
+/********************************************************************
+||||||||||||||||||||||||||||||||#Global Classes||||||||||||||||||||||                           
+*********************************************************************/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: var(--Lexend);
+}
+
+h3 {
+
+  font-family: var(--Abel);
+  font-size: 1.3rem;
+}
+
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
+
+span {
+  font-family: var(--Abel);
+}
+
+.container {
+  margin: 0 5vw;
+}
+
+.text-gray {
+  color: var(--text-gray);
+}
+
+p {
+  font-family: var(--Lexend);
+  color: var(--text-light);
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Global Classes|||||||||||||||||||||                           
+*********************************************************************/
+
+
+/*----------------------------------- Site Main Content---------------------------------------------*/
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Site Title|||||||||||||||||||||||||                           
+*********************************************************************/
+main .site-title {
+
+  background: url('../img/5.jpg');
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  height: calc(114vh - 90px);
+}
+
+main .site-title .site-background {
+
+  background: rgba(0, 0, 0, 0.82);
+  overflow: hidden;
+  width: 100%;
+  padding-top: 15rem;
+  text-align: center;
+  color: white;
+}
+
+main .site-title h1,
+h3 {
+
+  margin: .3rem;
+}
+
+main .site-title .btn {
+  margin: 1.8rem;
+  background: var(--sky);
+}
+
+main .site-title .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Sit title ate aqui|||||||||||||||||                           
+*********************************************************************/
+
+/*----------------------------------- Site Content --------------------------------------------------*/
+
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Section|||||||||||||||||||||||||||                           
+*********************************************************************/
+section {
+  background: rgba(0, 0, 0, 0.82);
+  width: auto;
+}
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section-bg {
+  
+  background-color: #ffffff;
+}
+
+.section-title h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+
+  color: #131618;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-title h3 span {
+  color: #05386b;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 500;
+  color: #919191;
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||#Section Ate aqui||||||||||||||||||||||                             
+*********************************************************************/
+
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #About Section||||||||||||||||||||                           
+*********************************************************************/
+/*.About {
+  background-color: #ffffff;
+  height: 98vh;
+  display: block;
+}*/
+
+.About-section-title {
+  text-align: center;
+  margin-top: 25%;
+
+}
+
+
+.About-section-bg {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  height: calc(114vh - 90px);
+  background-color: #ffffff;
+}
+
+.About-section-bg h3 {
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+.About-section-title h3 span {
+  color: #05386b;
+}
+
+.About .column {
+  float: left;
+  width: 45%;
+  height: 35vh;
+
+}
+
+
+.About-section-bg .info {
+  font-family: var(--Lexend);
+  font-size: 20px;
+  text-align: center;
+  width: 60vw;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.About .column i {
+  font-size: 55vh;
+  color: #ffffff;
+
+  margin-bottom: -15px;
+}
+
+
+/********************************************************************
+||||||||||||||||||||||||#About Section ate aqui||||||||||||||||||||                           
+*********************************************************************/
+
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Services Section|||||||||||||||||||                           
+*********************************************************************/
+
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+
+  background-size: cover;
+  height: calc(114vh - 90px);
+  background-color: #000000d8;
+
+}
+
+
+.section-title-service {
+  color: white;
+  text-align: center;
+ 
+  margin-left: 32%;
+  margin-top: 6%;
+  height: 9%;
+  width: 40%;
+
+}
+
+.section-title-service h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 170%;
+  width: auto;
+  margin-top: 80vh;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -13%;
+  width: 100%;
+  text-align: center;
+}
+
+h5 {
+  background-color: #797979;
+  text-align: justify;
+  font-family: var(--Abel);
+  font-size: 20px;
+  width: 125%;
+}
+
+.services-options {
+  color: #f2f2f2;
+  margin-top: 10%;
+  margin-left: 0%;
+  text-align: center;
+ 
+}
+
+.imagens {
+  display: flex;
+  margin-top: 9%;
+  margin-left: -75%;
+  background-size: cover;
+}
+
+.imgs {
+  width: 45vw;
+  height:80vh;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: -25%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||#Services Ate aqui||||||||||||||||||||||                             
+*********************************************************************/
+
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Contant Section||||||||||||||||||||                           
+*********************************************************************/
+
+
+.contact .column {
+  float: left;
+  width: 45%;
+  height: 35vh;
+
+}
+
+.contact .row {
+  background-color: #ffffff;
+  align-items: center;
+  width: 45%;
+  height: 35vh;
+  display: table;
+  margin-left: 29%;
+}
+
+.contact .info {
+  padding: 40px 40px;
+  text-align: center;
+  margin-left: 15%;
+
+  color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  height: 75px;
+  border: 2px solid white;
+  background: #2b2929;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  text-align: center;
+  margin-left: 15%;
+
+
+}
+
+.contact .column i {
+  font-size: 55vh;
+  color: #ffffff;
+
+  margin-bottom: -15px;
+}
+
+.contact .info h4 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact .info p {
+  font-size: 15px;
+}
+
+/********************************************************************
+||||||||||||||||||||||||#Contact Section ate aqui||||||||||||||||||||                           
+*********************************************************************/
+
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Footer|||||||||||||||||||||||||||||                           
+*********************************************************************/
+
+footer.footer {
+  /*display: inline-block;*/
+  position: relative;
+  bottom: 0;
+  background-color: rgba(23, 26, 29, 0.8);
+  width: 100%;
+
+}
+
+footer.footer .rights {
+
+  background-color: rgba(23, 26, 29, 0.8);
+  justify-content: center;
+  font-family: var(--Josefin);
+}
+
+
+footer.footer .rights h4 .kazira {
+  color: #a1c4fd;
+}
+
+footer.footer .move-up {
+  position: absolute;
+  right: 6%;
+  top: 35%;
+}
+
+footer.footer .move-up span {
+  background-color: rgba(23, 26, 29, 0.8);
+}
+
+footer.footer .move-up span:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+
+/********************************************************************
+|||||||||||||||||||||||||||||||| #Footer ate aqui|||||||||||||||||||||                           
+*********************************************************************/
+
+/*----------------------------------- Making the Site Responsive-------------------------------------*/
+
+/********************************************************************
+||||||||||||||||||||||||||||||||max-width: 858px|||||||||||||||||||||                           
+*********************************************************************/
+@media (max-width: 858px) {
+  body {
+    /* overflow: hidden;*/
+  }
+
+
+
+  .services-options {
+    display: none;
+  }
+
+  .imagens {
+    display: flex;
+    margin-top: 25%;
+    margin-left: -75%;
+    background-size: cover;
+  }
+  
+  .imgs {
+    width: 100vw;
+    height:75vh;
+  }
+
+  .section-title-service {
+    color: white;
+    text-align: center;
+   
+    margin-left: 32%;
+    margin-top: 15%;
+    height: 9%;
+    width: 40%;
+  
+  }
+
+
+  footer.footer {
+    /*display: inline-block;*/
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(23, 26, 29, 0.8);
+    width: 100%;
+
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(23, 26, 29, 0.8);
+    top: 80px;
+   
+    text-align: center;
+    transition: all .5s;
+  }
+
+
+  .nav-items ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+/********************************************************************
+||||||||||||||||||||||||||||||||max-width: 1024px|||||||||||||||||||||                           
+*********************************************************************/
+@media (min-width: 1024px) {
+  
+
+  .section-title p {
+    width: 50%;
+  }
+  
+
+}
+
+/********************************************************************
+|||||||||||||||||||||||Nav Bar max-width: 952px|||||||||||||||||||||                           
+*********************************************************************/
+@media (max-width: 952px) {
+
+
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  footer.footer {
+    /*display: inline-block;*/
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(23, 26, 29, 0.8);
+    width: 100%;
+
+  }
+
+}
+
+/********************************************************************
+||||||||||||||||||||||||||||||||max-width: 858px|||||||||||||||||||||                           
+*********************************************************************/
+@media (max-width: 858px) {
+
+  .checkbtn {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #797979;
+  }
+  
+  nav ul .btn
+  {
+    display: none;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 90%;
+    background: rgb(15, 15, 15);
+    top: 80px;
+    display: none;
+    text-align: center;
+    padding-left: 0;
+    transition: all .5s;
+  }
+
+  #check:checked~ul {
+    display: block;
+  }
+
+
+}
+
+/*--------------------------------------------------------------
+# Making NavBar Responsive ate aqui
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Contact Responsive
+--------------------------------------------------------------*/
+@media (max-width: 850px) {
+
+  .contact .column {
+
+    float: left;
+    width: 90%;
+    height: 30vh;
+
+  }
+
+  .contact .row {
+
+    background-color: #ffffff;
+    align-items: center;
+    width: 90%;
+    height: 30vh;
+    display: table;
+    margin-left: 25%;
+
+  }
+
+  .contact .info {
+
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    border: 2px solid white;
+    background: #2b2929;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+    text-align: center;
+    margin-left: -30%;
+  }
+
+  .About .info {
+    padding: 40px 40px;
+    text-align: center;
+    margin-top: -30%;
+
+    width: 60vw;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    background: transparent;
+
+    text-align: center;
+    margin-left: 27%;
+
+
+  }
+
+  .About .info p {
+    font-size: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact Responsive ate aqui
+--------------------------------------------------------------*/
